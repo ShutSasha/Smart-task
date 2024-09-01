@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { RouterProvider } from 'react-router-dom'
@@ -13,10 +13,8 @@ function render(): void {
   rootNode.render(
     <StrictMode>
       <Provider store={store}>
-        <>
-          <GlobalStyle />
-          <RouterProvider router={router} />
-        </>
+        <GlobalStyle />
+        <RouterProvider router={router} />
       </Provider>
     </StrictMode>,
   )

@@ -1,6 +1,7 @@
 export const themeColors = Object.freeze({
   backdrop: '#1A1A1D', // main background
   main: '#2A2A2D', // background for fields which will fill in different content
+  subMain: '#323232',
   textPrimary: '#EDEDED', // default text color
   textSecondary: '#CFCFCF', // color for additional text
   focusing: '#7474F7', // color for focus things like buttons, links etc..

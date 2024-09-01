@@ -26,7 +26,8 @@
       "~types/*": ["src/types/*"],
       "~pages/*": ["src/pages/*"],
       "~shared/*": ["src/shared/*"],
-      "~features/*": ["src/features/*"]
+      "~features/*": ["src/features/*"],
+      "~layouts/*": ["src/shared/layouts/*"]
     }
   },
   "include": ["./src/**/*", "./vite.config.ts"],
