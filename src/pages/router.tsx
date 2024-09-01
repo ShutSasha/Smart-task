@@ -4,11 +4,7 @@ import { Home } from './home'
 
 export const router = createBrowserRouter([
   {
-    path: '/',
-    element: <Home />,
-  },
-  {
     path: '*',
-    element: <div>Not found page. 404</div>,
+    element: <Home />,
   },
 ])
