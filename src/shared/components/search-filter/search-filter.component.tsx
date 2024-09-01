@@ -31,6 +31,7 @@ const StyledBtn = styled.button`
   line-height: ${SIZE_SCALE.LARGE};
   cursor: pointer;
   align-self: center;
+  border: none;
 `
 
 export const SearchFilter: React.FC = (): JSX.Element => {
